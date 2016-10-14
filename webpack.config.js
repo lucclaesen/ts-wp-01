@@ -2,12 +2,13 @@ var path = require('path');
 
 module.exports = {
     entry : {
-        javascript : "./src/main.ts",
-        // html : "./src/index.html" 
+        javascript : "./src/main.ts"
     },
     output : {
+        /* path is the physical folder where compilation output will be placed */
         path : path.resolve(__dirname, "dist"),
-        publicPath : "/dist/",
+        /* public path is the virtual directory in which resources can be accessed when served */
+        publicPath : "/assets/",
         filename : 'bundle.js'
     },
 
@@ -20,11 +21,7 @@ module.exports = {
             {
                 test : /\.tsx?$/,
                 loader : "ts-loader"
-            },
-            // {
-            //     test: /\.html$/,
-            //     loader: "file?name=[name].[ext]",
-            // },
+            }
         ],
         preLoaders : [
             {
