@@ -28,4 +28,8 @@ placed in a jsconfig.json.
 6. Setup git for 
 
 6. Setup VSCode:
-    - 
+    - ts-linter extension works seamlessly, provided the presence of a tslint.json file
+    - see the .vscode/tasks.json file on how to call npm build and debug scrips from within the command
+        palette or with predefined shortcuts.
+
+I've never seen such rich development support in the past.
