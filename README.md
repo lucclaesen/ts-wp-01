@@ -22,4 +22,10 @@ placed in a jsconfig.json.
         * publicPath is a virtual directory where the bundling output can
             be referenced when served. An html file in the content-base directory 
             should refer by means of a script tag to <publicPath>/bundle.js. 
+    - setting up typescript support within webpack is as simple as configuring the ts-loader
+    - ts-lint is set up as a preloader
+
+6. Setup git for 
+
+6. Setup VSCode:
     - 
