@@ -27,8 +27,18 @@ module.exports = {
             {
                 test : /\.js$/,
                 loader : "source-map-loader"
+            },
+            { 
+                test: /\.tsx?$/, 
+                loader: 'tslint', 
+                exclude: /node_modules/ 
             }
         ]
+    },
+     // Individual Plugin Options
+    tslint: {
+        emitErrors: true,
+        failOnHint: true
     }
     
 }
