@@ -38,3 +38,10 @@ placed in a jsconfig.json.
         palette or with predefined shortcuts.
 
 I've never seen such rich development support in the past.
+
+##Usage
+
+Clone it and detach its remote origin:
+
+git clone --depth 1 https://github.com/lucclaesen/ts-wp-01.git pong
+git remote rm origin
