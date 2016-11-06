@@ -43,5 +43,6 @@ I've never seen such rich development support in the past.
 
 Clone it and detach its remote origin:
 
-git clone --depth 1 https://github.com/lucclaesen/ts-wp-01.git pong
-git remote rm origin
+- git clone --depth 1 https://github.com/lucclaesen/ts-wp-01.git ${yourNewProject}
+- cd ${yourNewProject}
+- git remote rm origin
